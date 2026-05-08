@@ -1,0 +1,71 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# Testing
+.tox/
+.nox/
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+.dmypy.json
+
+# Generated pipeline files (these are outputs)
+.github/workflows/ci.yml
+.github/workflows/ci.yml.*.bak
+.gitlab-ci.yml
+.gitlab-ci.yml.*.bak
+Jenkinsfile
+Jenkinsfile.*.bak
+azure-pipelines.yml
+azure-pipelines.yml.*.bak
+.circleci/config.yml
+.circleci/config.yml.*.bak
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
