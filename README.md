@@ -363,3 +363,41 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 - Inspired by the need for consistent, secure CI/CD configurations across projects
 - Built with Python's standard library for zero-dependency deployment
 - Security patterns based on OWASP and industry best practices
+
+---
+
+<!-- showcase:start -->
+
+## Architecture
+
+```mermaid
+flowchart LR
+    A[Pipeline Spec YAML] --> B[Jinja2 Template]
+    B --> C{Target Platform}
+    C --> D1[GitHub Actions]
+    C --> D2[GitLab CI]
+    C --> D3[Jenkins]
+    C --> D4[CircleCI]
+    A --> E[Validators]
+    E --> E1[Syntax]
+    E --> E2[Security]
+```
+
+## Test Results
+
+![Test results](docs/test_results.png)
+
+**90 passing**, **0 failing**, **2 skipped** (total 92, framework: pytest)
+
+## References & Further Reading
+
+- Humble, J. & Farley, D. (2010). *Continuous Delivery.* Addison-Wesley.
+- Forsgren, N., Humble, J., & Kim, G. (2018). *Accelerate: The Science of Lean Software and DevOps.* IT Revolution.
+
+## Author
+
+**Manikanta Reddy Mandadhi** — Senior Data Scientist (RAG / Agentic AI)
+
+GitHub: [@Mani9006](https://github.com/Mani9006/cicd-pipeline-generator) · LinkedIn: [reddy1999](https://www.linkedin.com/in/reddy1999) · Portfolio: [manikantabio.com](https://www.manikantabio.com)
+
+<!-- showcase:end -->

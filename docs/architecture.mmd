@@ -1,0 +1,10 @@
+flowchart LR
+    A[Pipeline Spec YAML] --> B[Jinja2 Template]
+    B --> C{Target Platform}
+    C --> D1[GitHub Actions]
+    C --> D2[GitLab CI]
+    C --> D3[Jenkins]
+    C --> D4[CircleCI]
+    A --> E[Validators]
+    E --> E1[Syntax]
+    E --> E2[Security]
