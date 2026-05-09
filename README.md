@@ -368,6 +368,20 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 
 <!-- showcase:start -->
 
+## Research Report
+
+**Comparative Generation of Continuous-Integration Pipelines from Declarative Specifications**
+
+_A study of pipeline portability across GitHub Actions, GitLab CI, Jenkins, and CircleCI_
+
+A self-contained research-grade report (Abstract, Introduction, Research Problem, Research Questions, Literature Review, Research Method, Data Description, Analysis, Discussion, Conclusion, Future Work, References) is published with this repository.
+
+[Read the full report (PDF)](docs/research_report.pdf)
+
+**Keywords:** CI/CD, pipeline compilation, GitHub Actions, GitLab CI, Jenkins, vendor portability
+
+![Research metrics](docs/research_metrics.png)
+
 ## Architecture
 
 ```mermaid
